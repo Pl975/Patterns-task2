@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'temurin'
+        distribution: 'adopt'
     - name: Run SUT
       run:  java -jar ./artifacts/app-ibank.jar -P:profile=test &
      
